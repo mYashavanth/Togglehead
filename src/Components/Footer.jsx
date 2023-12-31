@@ -87,7 +87,7 @@ export default function Footer() {
         </Box>
       </Box>
       <Box
-        backgroundColor={"#092751"}
+        backgroundColor={"#002F5F"}
         p={"1rem"}
         color={"white"}
         textAlign={"center"}
