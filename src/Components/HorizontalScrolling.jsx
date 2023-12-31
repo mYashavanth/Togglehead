@@ -77,8 +77,11 @@ export default function HorizontalScrolling() {
             slidesPerView: 3,
           },
           1024: {
-            slidesPerView: 4,
+            slidesPerView: 3,
           },
+          1440: {
+            slidesPerView: 4,
+          }
         }}
         freeMode={true}
         // pagination={{
