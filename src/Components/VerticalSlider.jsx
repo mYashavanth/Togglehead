@@ -30,7 +30,7 @@ const VerticalSlider = ({ slides }) => {
     <>
       <Box
         className="swiper-container"
-        height={{ base: "75vh", md: "65vh", lg: "50vh", xl: "54vh" }}
+        height={{ base: "35rem", md: "48rem", lg: "28rem", xl: "25rem" }}
         overflow="hidden"
         position="relative"
       >
