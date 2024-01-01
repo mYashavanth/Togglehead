@@ -4,7 +4,6 @@ import Swiper from "swiper/bundle";
 import "swiper/css/bundle";
 import { Box, Heading, Text, Image, Button, Center } from "@chakra-ui/react";
 import { BiSolidRightArrow } from "react-icons/bi";
-import "./VerticalSlider.css";
 
 const VerticalSlider = ({ slides }) => {
   useEffect(() => {
@@ -104,11 +103,17 @@ const VerticalSlider = ({ slides }) => {
         <div
           className="swiper-pagination"
           style={{
+            width: "1rem",
+            height: "100%",
             position: "absolute",
-            top: "50%",
             right: "1rem",
+            top: "50%",
             transform: "translateY(-50%)",
-            bottom: "6rem",
+            display: "flex",
+            flexDirection: "column",
+            gap: "0.8rem",
+            alignItems: "center",
+            justifyContent: "center",
           }}
         ></div>
       </Box>
