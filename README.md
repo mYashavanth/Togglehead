@@ -24,7 +24,7 @@ Auto play feature for engagement
 
   ## Installation
 1. Clone the Resitory:
-     git clone https://github.com/your-username/project-name.git
+     git clone https://github.com/mYashavanth/Togglehead.git
 
 2. Open the project Directory:
    cd project-name
