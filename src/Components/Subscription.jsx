@@ -34,7 +34,7 @@ function Subscription() {
           className="subscribe-section-input-container"
         >
           <Input
-            w={{ base: "100%", md: "90%", lg: "60%", xl: "25%" }}
+            w={{ base: "100%", md: "90%", lg: "60%", xl: "60%" }}
             placeholder="Enter your Email Address"
             type="email"
           />
