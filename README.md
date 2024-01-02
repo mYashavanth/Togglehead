@@ -29,7 +29,7 @@ Auto play feature for engagement
 2. Open the project Directory:
    cd project-name
 
-3. Open `index.html` in your web browser
+3. Run ```npm run dev``` in your terminal to start the server
 
 ## Usage
 1. Navigate through different sections using the provided navigation elements.
