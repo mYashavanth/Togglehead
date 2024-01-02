@@ -30,7 +30,7 @@ export default function Footer() {
           base: "#092751",
           md: "#092751",
           lg: "#092751",
-          xl: "white",
+          xl: "none",
         }}
         backgroundSize={"contain"}
         color={"white"}

@@ -20,26 +20,30 @@ function Subscription() {
         padding={{ base: "3rem", md: "6rem" }}
         width={{ base: "100%", md: "68%" }}
       >
-        <Heading
-          fontSize={{ base: "1.5rem", md: "2.5rem" }}
-          color="#12406F"
-        >
+        <Heading fontSize={{ base: "1.5rem", md: "2.5rem" }} color="#12406F">
           Subscribe
         </Heading>
-        <Text
-          color="black"
-          fontSize={{ base: "1rem", md: "1.5rem" }}
-        >
+        <Text color="black" fontSize={{ base: "1rem", md: "1.5rem" }}>
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
           nonumy eirmod tempor invidunt ut labore et dolore magna
         </Text>
-        <Box display="flex" flexDirection={{ base: "column", md: "row" }} gap="1rem" className="subscribe-section-input-container">
+        <Box
+          display="flex"
+          flexDirection={{ base: "column", md: "column", lg: "column", xl: "row" }}
+          gap="1rem"
+          className="subscribe-section-input-container"
+        >
           <Input
-            w={{ base: "100%", md: "60%" }}
+            w={{ base: "100%", md: "90%", lg: "60%", xl: "25%" }}
             placeholder="Enter your Email Address"
             type="email"
           />
-          <Button background="#12406F" color="white">
+          <Button
+            background="#12406F"
+            color="white"
+            w={{ base: "100%", md: "90%", lg: "60%", xl: "25%" }}
+            _hover={{ background: "#12406F" }}
+          >
             Subscribe Now
             <IoMdArrowDropright />
           </Button>

@@ -71,6 +71,7 @@ const VerticalSlider = ({ slides }) => {
                     letterSpacing={"0.1rem"}
                     color={"white"}
                     backgroundColor={"#12406F"}
+                    _hover={{ background: "#12406F" }}
                   >
                     <Text>Know More</Text>
                     <Center mt={"0.2rem"}>
